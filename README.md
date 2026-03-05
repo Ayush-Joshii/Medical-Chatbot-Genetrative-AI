@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+
+=======
 # End-to-end-Medical-Chatbot-Generative-AI
 
 # How to run?
@@ -23,3 +26,31 @@ conda activate medibot
 ```bash
 pip install -r requirements.txt
 ```
+### Create a `.env` file in the root directory and add your Pinecone  & openai credentials as follows:
+
+```ini
+PINECONE_API_KEY="xxxxxxxxxxxxxxxxxxxxxxxxx"
+OPENAI_API_KEY="xxxxxxxxxxxxxxxxxxxxxxxxxxx"
+```
+```bash
+# run the following command to store embeddngs to pinecone 
+python store_index.py
+```
+```bash
+# Finally run th following command
+python app.py
+```
+Now,
+```bash
+open up localhost:
+```
+
+### Techstack Used:
+-Python 
+-Langchain
+-Flask
+-GPT
+-Pinecone
+
+
+>>>>>>> dc3a0a4 (folder structure added)
