@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 
-=======
 # End-to-end-Medical-Chatbot-Generative-AI
 
 # How to run?
@@ -51,6 +49,3 @@ open up localhost:
 -Flask
 -GPT
 -Pinecone
-
-
->>>>>>> dc3a0a4 (folder structure added)
